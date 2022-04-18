@@ -770,6 +770,7 @@ header a:hover {
 
     .new__tile-container {
         max-width: 80%;
+        margin: 0 auto;
     }
 
     .new__title {
