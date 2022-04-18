@@ -671,48 +671,67 @@ header a:hover {
     .ad__container {
         width: 1053px;
     }
-
-@media screen and (max-width: 1100px) {
-        .container {
-            width: 900px !important;
-        }
-
-        .contact__body {
-            flex-direction: column;
-        }
-        
-        .ad__column-mid {
-            display: none;
-        }
-
-        .header__right-container {
-            display: none;
-        }
-
-        .header__burger {
-            display: block;
-            height: 22px;
-            width: 40px;
-        }
-        
-        .header__right {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
 }
+
 @media screen and (max-width: 1670px) {
     .ad__column-mid {
         display: none;
     }
-    .ad__container{
-        max-width: 55%;
+
+    .ad__container {
+        max-width: 70%;
     }
+
     .ad__column-right {
         max-width: 350px;
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 100%;
+    }
+
+    .contact__body {
+        flex-direction: column;
+    }
+
+    .ad__column-left {
+        max-width: 260px;
+    }
+
+    .ad__column-mid {
+        display: none;
+    }
+
+    .ad__column-right {
+        max-width: 300px;
+    }
+
+    .header__right-container {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+        height: 22px;
+        width: 40px;
+    }
+
+    .header__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ad__container {
+        max-width: 75%;
+    }
+    .ad__title {
+        text-align: center;
+    }
+}
+
 /* Ad */
 
 footer {
