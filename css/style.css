@@ -696,6 +696,24 @@ header a:hover {
         flex-direction: column;
     }
 
+    .contact__left {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact__right {
+        margin: 10px auto 0 auto;
+    }
+
+    .main {
+        padding-top: 20px;
+    }
+
+    .main__text {
+        max-width: 85%;
+        padding-top: 60px;
+    }
+
     .ad__column-left {
         max-width: 260px;
     }
@@ -708,6 +726,28 @@ header a:hover {
         max-width: 300px;
     }
 
+    .product {
+        flex-direction: column;
+    }
+
+    .product__left {
+        height: 100%;
+    }
+
+    .product__right {
+        width: 100%;
+        height: 100ch;
+    }
+
+    .collection__right-text {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .collection {
+        flex-direction: column;
+    }
+    
     .header__right-container {
         display: none;
     }
@@ -724,9 +764,58 @@ header a:hover {
         align-items: center;
     }
 
-    .ad__container {
-        max-width: 75%;
+    .new__container {
+        max-width: 100%;
     }
+
+    .new__tile-container {
+        max-width: 80%;
+    }
+
+    .new__title {
+        margin: 70px auto 0px auto;
+        text-align: center;
+    }
+
+    .new__items {
+        margin: 0;
+    }
+
+    .new__item {
+        margin: 0;
+    }
+
+    .ad__container {
+        display: flex;
+        max-width: 75%;
+        flex-direction: column;
+    }
+
+    .ad__column {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        flex-direction: column;
+    }
+    
+    .ad__column-left {
+        text-align: center;
+        margin: 30px auto 0 auto;
+    }
+
+    .ad__column-right {
+        max-width: 300px;
+        margin: 40px auto 0 auto;
+    }
+
+    .ad__column-right-input-data {
+        width: 150px;
+    }
+
+    .ad-column-right-btn {
+        width: 150px;
+    }
+
     .ad__title {
         text-align: center;
     }
