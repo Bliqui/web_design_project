@@ -184,7 +184,11 @@ header a:hover {
     color: #FFFFFF;
 }
 
-.header__right {
+.header__burger {
+    display: none;
+}
+
+.header__right-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -568,20 +572,6 @@ header a:hover {
     margin-right: 15px;
 }
 
-@media screen and (max-width: 1100px) {
-    .container {
-        width: 900px !important;
-    }
-
-    .contact__body {
-        flex-direction: column;
-    }
-
-    .header__right {
-        display: none;
-    }
-}
-
 /* Brands */
 
 /* Ad */
@@ -690,13 +680,25 @@ header a:hover {
         .contact__body {
             flex-direction: column;
         }
-
-        .header__right {
-            display: none;
-        }
         
         .ad__column-mid {
             display: none;
+        }
+
+        .header__right-container {
+            display: none;
+        }
+
+        .header__burger {
+            display: block;
+            height: 22px;
+            width: 40px;
+        }
+        
+        .header__right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
