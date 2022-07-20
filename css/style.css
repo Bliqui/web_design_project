@@ -26,6 +26,9 @@ a:focus,
 a:active {
     outline: none;
 }
+a {
+    color: #000;
+}
 
 nav,
 footer,
@@ -104,6 +107,9 @@ body {
 }
 
 /* Cotanct */
+.contact, .contact__number {
+    color: #969696;
+}
 .container {
     width: 100%;
     display: flex;
@@ -119,8 +125,6 @@ body {
     display: flex;
     justify-content: space-between;
 
-    color: #969696;
-
     padding: 15px 0;
     width: 100%;
     position: relative;
@@ -128,18 +132,12 @@ body {
 
 .contact__left {
     display: flex;
+    gap: 16px;
 }
 
 .contact__right {
     display: flex;
-}
-
-.contact__phone-icon {
-    margin-right: 16px;
-}
-
-.contact__enter-icon {
-    margin-right: 16px;
+    gap: 16px;
 }
 
 .contact__right a {
@@ -182,6 +180,7 @@ header a:hover {
 
 .header__left-logo {
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .header__burger {
@@ -310,6 +309,7 @@ header a:hover {
     color: #fff;    
 
     padding-top: 90px;
+    text-transform: uppercase;
 }
 .product__left-underline {
     height: 1px;
@@ -371,6 +371,7 @@ header a:hover {
 
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .product__right-underline {
     height: 1px;
@@ -388,6 +389,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .product__right-btn:hover {
@@ -429,6 +431,7 @@ header a:hover {
     line-height: 42px;
     text-align: center;
     color: #fff;
+    text-transform: uppercase;
 }
 .collection__right-underline {
     background-color: #fff;
@@ -505,6 +508,7 @@ header a:hover {
     flex-wrap: wrap;
     max-width: 1200px;
     justify-content: center;
+    gap: 10px;
 
     margin-left: auto;
     margin-right: auto;
@@ -567,6 +571,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .brands__item {
     margin-right: 15px;
@@ -667,11 +672,7 @@ header a:hover {
     color: #000;
 }
 
-@media screen and (max-width: 4000px) {
-    .ad__container {
-        width: 1053px;
-    }
-}
+
 
 @media screen and (max-width: 1670px) {
     .ad__column-mid {
